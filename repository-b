@@ -1,0 +1,5 @@
+local args = {
+    [1] = true
+}
+
+workspace:WaitForChild("Events"):WaitForChild("Misc"):WaitForChild("TrapPlayer"):FireServer(unpack(args))
