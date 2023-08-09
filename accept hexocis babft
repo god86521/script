@@ -1,0 +1,5 @@
+local args = {
+    [1] = game:GetService("Players"):WaitForChild("Hexocis")
+}
+
+workspace:WaitForChild("ChangeTeam"):WaitForChild("ApprovePlayer"):FireServer(unpack(args))
